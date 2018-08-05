@@ -52,7 +52,7 @@
   display: block;
   font-size: 19px;
   line-height: 24px;
-  margin: 0 0 13px 0;
+  margin: 0 0 1em 0;
   font-weight: 500;
   color: #292929;
   -moz-transition: all 0.5s ease-in-out 0s;
@@ -94,7 +94,7 @@
 
 .entry-comments h6 {
   margin-right: 10px;
-  font-size: 13px;
+  font-size: 1em;
   letter-spacing: 0.1em;
   font-weight: 500;
 }
@@ -119,14 +119,14 @@
 
 .entry-comments-author {
   margin-right: 10px;
-  font-size: 13px;
+  font-size: 1em;
   color: #292929;
   letter-spacing: 0.1em;
   font-weight: 500;
 }
 
 .rep {
-  font-size: 13px;
+  font-size: 1em;
   color: #292929;
   letter-spacing: 0.1em;
   font-weight: 500;
@@ -134,7 +134,7 @@
 }
 
 .entry-comments span a {
-  font-size: 13px;
+  font-size: 1em;
   color: #999;
 }
 
@@ -149,13 +149,40 @@
 }
 
 blockquote {
-  padding: 1.5em;
+  padding: 1em;
   background-color: #f2f2f2;
-  margin: 1em 0;
+  margin: 1em 0 1em 0;
   border: none;
   border-left: 4px solid #b8a07e;
-  line-height: normal;
   font-family: 'Quattrocento', serif;
-  font-size: 1em;
+  font-size: 1.5em;
   color: #333333;
+}
+
+.calloutul {
+
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+
+
+.calloutli {
+  font-size: .75em;
+  padding: .5rem;
+  flex-basis: 20%;
+  list-style-type: none;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin: .25rem;
+  background-color: #fff;
+  line-height: normal;
+}
+
+.img-responsive {
+  width: 100%;
 }
